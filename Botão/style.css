@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tiro+Devanagari+Hindi&family=Tiro+Gurmukhi:ital@1&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(24, 33, 36);
+    box-sizing: border-box;
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bot {
+    
+    color: rgb(30, 30, 46);
+    
+    font-family: "Tiro Gurmukhi";
+    font-size: 17px;
+    background-color: rgb(33, 124, 124);
+    padding: 18px;
+    border-radius: 10%;
+    box-shadow: 2.5px 2.5px 2.5px black;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.bot:hover{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.15s;
+    
+}
+
+
